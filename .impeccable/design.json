@@ -1,0 +1,758 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-27T21:49:54+00:00",
+  "title": "Design System: InfectionSkillHub",
+  "extensions": {
+    "colorMeta": {
+      "raspberry": {
+        "role": "primary",
+        "displayName": "Raspberry",
+        "canonical": "#b12c63",
+        "tonalRamp": [
+          "#37000f",
+          "#610025",
+          "#82003e",
+          "#a41e59",
+          "#c74275",
+          "#f16999",
+          "#ff9dc0",
+          "#ffdde9"
+        ]
+      },
+      "eggplant": {
+        "role": "neutral",
+        "displayName": "Eggplant",
+        "canonical": "#2a0625",
+        "tonalRamp": [
+          "#20061c",
+          "#3e1938",
+          "#5a3253",
+          "#774d6f",
+          "#966a8d",
+          "#bb8db2",
+          "#ddb6d4",
+          "#f5e6f1"
+        ]
+      },
+      "deep-purple": {
+        "role": "neutral",
+        "displayName": "Deep Purple",
+        "canonical": "#55225a",
+        "tonalRamp": [
+          "#220026",
+          "#410e46",
+          "#5e2a63",
+          "#7b4680",
+          "#9a639f",
+          "#c087c5",
+          "#e0b2e4",
+          "#f7e4f8"
+        ]
+      },
+      "neon-magenta": {
+        "role": "tertiary",
+        "displayName": "Neon Magenta",
+        "canonical": "#fe61f8",
+        "tonalRamp": [
+          "#360039",
+          "#5f0061",
+          "#800080",
+          "#a1009f",
+          "#c41bc0",
+          "#ed50e8",
+          "#ff90ff",
+          "#ffdaff"
+        ]
+      },
+      "electric-cyan": {
+        "role": "secondary",
+        "displayName": "Electric Cyan",
+        "canonical": "#5be0f0",
+        "tonalRamp": [
+          "#001a25",
+          "#003545",
+          "#005161",
+          "#006f7e",
+          "#008d9c",
+          "#16b2c2",
+          "#76d5e2",
+          "#d1f2f7"
+        ]
+      },
+      "pastel-pink": {
+        "role": "secondary",
+        "displayName": "Pastel Pink",
+        "canonical": "#fe8ed5",
+        "tonalRamp": [
+          "#30001f",
+          "#55003d",
+          "#750658",
+          "#952e75",
+          "#b74d93",
+          "#df72b9",
+          "#fca3da",
+          "#ffdff4"
+        ]
+      },
+      "muted-lavender": {
+        "role": "neutral",
+        "displayName": "Muted Lavender",
+        "canonical": "#9b68a5",
+        "tonalRamp": [
+          "#210027",
+          "#3f1048",
+          "#5b2c64",
+          "#784782",
+          "#9764a1",
+          "#bd88c7",
+          "#deb3e6",
+          "#f6e5f9"
+        ]
+      },
+      "coral-red": {
+        "role": "tertiary",
+        "displayName": "Coral Red",
+        "canonical": "#ca3f56",
+        "tonalRamp": [
+          "#3a0000",
+          "#650008",
+          "#870022",
+          "#a91b3c",
+          "#cc4158",
+          "#f7697b",
+          "#ff9da7",
+          "#ffdee0"
+        ]
+      },
+      "ink-white": {
+        "role": "neutral",
+        "displayName": "Ink White",
+        "canonical": "white"
+      },
+      "night-raised": {
+        "role": "neutral",
+        "displayName": "Night Raised",
+        "canonical": "color-mix(in oklab, var(--color-eggplant) 82%, var(--color-deep-purple))",
+        "tonalRamp": [
+          "#20051e",
+          "#3e173b",
+          "#5a3156",
+          "#784c73",
+          "#966890",
+          "#bc8cb6",
+          "#ddb6d7",
+          "#f5e6f3"
+        ]
+      },
+      "night-sunken": {
+        "role": "neutral",
+        "displayName": "Night Sunken",
+        "canonical": "color-mix(in oklab, var(--color-eggplant) 88%, black)",
+        "tonalRamp": [
+          "#1f071a",
+          "#3c1b35",
+          "#583450",
+          "#754f6c",
+          "#936c8a",
+          "#b98faf",
+          "#dab8d1",
+          "#f4e6f0"
+        ]
+      },
+      "night-panel": {
+        "role": "neutral",
+        "displayName": "Night Panel",
+        "canonical": "color-mix(in oklab, var(--color-eggplant) 75%, var(--color-deep-purple))",
+        "tonalRamp": [
+          "#20041f",
+          "#3f163c",
+          "#5b3057",
+          "#784c74",
+          "#966892",
+          "#bc8cb7",
+          "#ddb5d9",
+          "#f5e5f3"
+        ]
+      },
+      "night-rule": {
+        "role": "neutral",
+        "displayName": "Night Rule",
+        "canonical": "color-mix(in oklab, var(--color-deep-purple) 85%, var(--color-eggplant))",
+        "tonalRamp": [
+          "#220125",
+          "#401044",
+          "#5d2c60",
+          "#7a487e",
+          "#99649c",
+          "#bf88c2",
+          "#dfb3e2",
+          "#f6e5f7"
+        ]
+      },
+      "night-seat-track": {
+        "role": "neutral",
+        "displayName": "Night Seat Track",
+        "canonical": "color-mix(in oklab, var(--color-deep-purple) 70%, var(--color-eggplant))",
+        "tonalRamp": [
+          "#220123",
+          "#401142",
+          "#5d2d5d",
+          "#7a487b",
+          "#996599",
+          "#bf89bf",
+          "#e0b3df",
+          "#f6e5f6"
+        ]
+      },
+      "night-text": {
+        "role": "neutral",
+        "displayName": "Night Text",
+        "canonical": "color-mix(in oklab, var(--color-pastel-pink) 10%, white)",
+        "tonalRamp": [
+          "#151013",
+          "#2e262b",
+          "#483f45",
+          "#645a60",
+          "#81777d",
+          "#a59ba1",
+          "#cac1c7",
+          "#edeaec"
+        ]
+      },
+      "night-text-2": {
+        "role": "neutral",
+        "displayName": "Night Text 2",
+        "canonical": "color-mix(in oklab, var(--color-pastel-pink) 40%, white)",
+        "tonalRamp": [
+          "#1f0818",
+          "#3c1c32",
+          "#58354c",
+          "#755068",
+          "#936c85",
+          "#b990aa",
+          "#dab9cd",
+          "#f4e7ef"
+        ]
+      },
+      "night-text-3": {
+        "role": "neutral",
+        "displayName": "Night Text 3",
+        "canonical": "color-mix(in oklab, var(--color-muted-lavender) 62%, white)",
+        "tonalRamp": [
+          "#1c081f",
+          "#371d3c",
+          "#523658",
+          "#6f5174",
+          "#8d6e92",
+          "#b291b8",
+          "#d4bad9",
+          "#f2e7f3"
+        ]
+      },
+      "night-brand-hover": {
+        "role": "primary",
+        "displayName": "Raspberry Hover (night)",
+        "canonical": "color-mix(in oklab, var(--color-raspberry) 82%, var(--color-neon-magenta))",
+        "tonalRamp": [
+          "#370017",
+          "#600030",
+          "#81004b",
+          "#a31967",
+          "#c63f84",
+          "#f066a8",
+          "#ff9bcc",
+          "#ffddee"
+        ]
+      },
+      "night-danger-text": {
+        "role": "tertiary",
+        "displayName": "Danger Text (night)",
+        "canonical": "color-mix(in oklab, var(--color-coral-red) 55%, white)",
+        "tonalRamp": [
+          "#2a0006",
+          "#4d0c19",
+          "#6c2931",
+          "#8b454c",
+          "#ab6268",
+          "#d3868b",
+          "#f1b1b4",
+          "#fee4e5"
+        ]
+      },
+      "night-danger-soft": {
+        "role": "tertiary",
+        "displayName": "Danger Wash (night)",
+        "canonical": "color-mix(in oklab, var(--color-coral-red) 18%, var(--color-eggplant))",
+        "tonalRamp": [
+          "#250217",
+          "#451231",
+          "#632d4b",
+          "#814867",
+          "#a06584",
+          "#c788a9",
+          "#e6b3cd",
+          "#f9e5ee"
+        ]
+      },
+      "night-info-soft": {
+        "role": "secondary",
+        "displayName": "Info Wash (night)",
+        "canonical": "color-mix(in oklab, var(--color-electric-cyan) 12%, var(--color-eggplant))",
+        "tonalRamp": [
+          "#1b0a1d",
+          "#361e39",
+          "#513854",
+          "#6e5371",
+          "#8b6f8e",
+          "#b093b4",
+          "#d3bbd6",
+          "#f1e7f2"
+        ]
+      },
+      "stock-bg": {
+        "role": "neutral",
+        "displayName": "Pink Stock",
+        "canonical": "color-mix(in oklab, var(--color-pastel-pink) 7%, white)",
+        "tonalRamp": [
+          "#141013",
+          "#2d272b",
+          "#464044",
+          "#625b60",
+          "#7f787c",
+          "#a39ca0",
+          "#c8c2c6",
+          "#edeaec"
+        ]
+      },
+      "stock-sunken": {
+        "role": "neutral",
+        "displayName": "Pink Stock Sunken",
+        "canonical": "color-mix(in oklab, var(--color-pastel-pink) 14%, white)",
+        "tonalRamp": [
+          "#160f14",
+          "#30252c",
+          "#4a3e46",
+          "#665961",
+          "#83767e",
+          "#a89aa2",
+          "#ccc0c7",
+          "#eeeaec"
+        ]
+      },
+      "stock-rule": {
+        "role": "neutral",
+        "displayName": "Stock Rule",
+        "canonical": "color-mix(in oklab, var(--color-muted-lavender) 28%, white)",
+        "tonalRamp": [
+          "#170e18",
+          "#302432",
+          "#4a3d4d",
+          "#665868",
+          "#837586",
+          "#a898aa",
+          "#ccbfce",
+          "#eee9ef"
+        ]
+      },
+      "stock-rule-strong": {
+        "role": "neutral",
+        "displayName": "Stock Rule Strong",
+        "canonical": "color-mix(in oklab, var(--color-muted-lavender) 55%, white)",
+        "tonalRamp": [
+          "#1b091e",
+          "#361e3b",
+          "#513756",
+          "#6d5273",
+          "#8b6f90",
+          "#b093b6",
+          "#d3bbd7",
+          "#f1e7f3"
+        ]
+      },
+      "stock-seat-track": {
+        "role": "neutral",
+        "displayName": "Stock Seat Track",
+        "canonical": "color-mix(in oklab, var(--color-muted-lavender) 22%, white)",
+        "tonalRamp": [
+          "#150f16",
+          "#2e2530",
+          "#483f4a",
+          "#645a66",
+          "#817683",
+          "#a59aa7",
+          "#cac0cb",
+          "#edeaee"
+        ]
+      },
+      "stock-text-3": {
+        "role": "neutral",
+        "displayName": "Stock Text 3",
+        "canonical": "color-mix(in oklab, var(--color-muted-lavender) 70%, var(--color-eggplant))",
+        "tonalRamp": [
+          "#200224",
+          "#3e1343",
+          "#5a2e5f",
+          "#784a7d",
+          "#96669b",
+          "#bc8ac1",
+          "#ddb4e1",
+          "#f5e5f7"
+        ]
+      },
+      "stock-time": {
+        "role": "secondary",
+        "displayName": "Dusk Purple",
+        "canonical": "color-mix(in oklab, var(--color-deep-purple) 85%, var(--color-electric-cyan))",
+        "tonalRamp": [
+          "#1c0626",
+          "#381946",
+          "#533362",
+          "#6f4e80",
+          "#8d6b9e",
+          "#b28fc4",
+          "#d4b8e3",
+          "#f2e6f8"
+        ]
+      },
+      "stock-seat": {
+        "role": "secondary",
+        "displayName": "Deep Cyan",
+        "canonical": "oklch(from var(--color-electric-cyan) 0.56 c h)",
+        "tonalRamp": [
+          "#001923",
+          "#003442",
+          "#004f5e",
+          "#006c7b",
+          "#0a8a99",
+          "#45afbf",
+          "#86d3df",
+          "#d6f1f6"
+        ]
+      },
+      "stock-focus": {
+        "role": "tertiary",
+        "displayName": "Stock Magenta",
+        "canonical": "color-mix(in oklab, var(--color-neon-magenta) 55%, var(--color-eggplant))",
+        "tonalRamp": [
+          "#2d002c",
+          "#51004f",
+          "#70016c",
+          "#902d8a",
+          "#b04ca9",
+          "#d872d0",
+          "#f6a3ed",
+          "#ffdffc"
+        ]
+      },
+      "stock-brand-hover": {
+        "role": "primary",
+        "displayName": "Raspberry Hover (stock)",
+        "canonical": "color-mix(in oklab, var(--color-raspberry) 82%, var(--color-eggplant))",
+        "tonalRamp": [
+          "#330011",
+          "#5b0028",
+          "#7b0141",
+          "#9d2c5d",
+          "#bf4c79",
+          "#e8719d",
+          "#ffa2c3",
+          "#ffdfeb"
+        ]
+      },
+      "stock-danger-text": {
+        "role": "tertiary",
+        "displayName": "Danger Text (stock)",
+        "canonical": "color-mix(in oklab, var(--color-coral-red) 80%, var(--color-eggplant))",
+        "tonalRamp": [
+          "#350004",
+          "#5e0015",
+          "#7f002d",
+          "#a02c48",
+          "#c24c63",
+          "#ec7286",
+          "#ffa3b0",
+          "#ffdfe3"
+        ]
+      },
+      "stock-danger-soft": {
+        "role": "tertiary",
+        "displayName": "Danger Wash (stock)",
+        "canonical": "color-mix(in oklab, var(--color-coral-red) 10%, white)",
+        "tonalRamp": [
+          "#180f10",
+          "#312526",
+          "#4c3f3f",
+          "#685a5a",
+          "#857677",
+          "#aa9a9b",
+          "#cdc0c1",
+          "#efeaea"
+        ]
+      },
+      "stock-info-soft": {
+        "role": "secondary",
+        "displayName": "Info Wash (stock)",
+        "canonical": "color-mix(in oklab, var(--color-electric-cyan) 14%, white)",
+        "tonalRamp": [
+          "#0b1314",
+          "#202b2d",
+          "#394547",
+          "#546062",
+          "#707d7f",
+          "#94a1a3",
+          "#bbc7c8",
+          "#e8eced"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Day numerals; the auth masthead at clamp(2.4rem, 4.4vw, 3.6rem). 2.4rem on phones."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "One h1 per page. 1.6rem on phones."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Workshop titles in agenda rows."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running text with tabular numerals; lede capped at 62ch."
+      },
+      "body-sm": {
+        "displayName": "Body Sm",
+        "purpose": "Row descriptions, instructor names, secondary copy."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Form field labels."
+      },
+      "button": {
+        "displayName": "Button",
+        "purpose": "Button labels; 0.875rem on small buttons."
+      },
+      "time": {
+        "displayName": "Time",
+        "purpose": "Start times in the agenda time column."
+      },
+      "mono-label": {
+        "displayName": "Mono Label",
+        "purpose": "Uppercase month, day counts and rail dates."
+      },
+      "code": {
+        "displayName": "Code",
+        "purpose": "Workshop codes in tertiary text."
+      }
+    },
+    "shadows": [
+      {
+        "name": "toast-lift-night",
+        "value": "0 12px 32px -12px color-mix(in oklab, black 70%, transparent)",
+        "purpose": "Floating toasts in dark mode; the only page shadow."
+      },
+      {
+        "name": "toast-lift-stock",
+        "value": "0 12px 32px -14px color-mix(in oklab, var(--color-eggplant) 35%, transparent)",
+        "purpose": "Floating toasts in light mode."
+      },
+      {
+        "name": "focus-halo",
+        "value": "0 0 0 3px color-mix(in oklab, var(--focus) 30%, transparent)",
+        "purpose": "Text inputs on focus, with a focus-colored border."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Every designed movement: rail marker, seat settle, switch knob, toast rise, button press."
+      },
+      {
+        "name": "rail-glide",
+        "value": "transform 0.35s var(--ease-out)",
+        "purpose": "The day rail marker moving to the day in view."
+      },
+      {
+        "name": "seat-settle",
+        "value": "settle 0.6s var(--ease-out) both (scaleX 0 to 1)",
+        "purpose": "Seat meter fills, once on load."
+      },
+      {
+        "name": "toast-rise",
+        "value": "rise 0.3s var(--ease-out) (opacity 0, translateY 8px)",
+        "purpose": "Toast entry."
+      },
+      {
+        "name": "state-change",
+        "value": "0.15s ease",
+        "purpose": "Color, background and border changes on hover and focus."
+      },
+      {
+        "name": "theme-change",
+        "value": "background-color 0.2s ease, color 0.2s ease",
+        "purpose": "Body crossfade when the theme toggles."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "animation and transition durations 0.01ms",
+        "purpose": "Global prefers-reduced-motion override; removes all of the above."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "tablet",
+        "value": "1080px"
+      },
+      {
+        "name": "phone",
+        "value": "680px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The single brand action per row or form: Enroll, Certificate, Create account, submit.",
+      "html": "<button class=\"ds-btn ds-btn-primary\">Enroll</button>",
+      "css": ".ds-btn { display:inline-flex; align-items:center; justify-content:center; gap:8px; min-height:42px; padding:0 18px; border-radius:var(--radius-sm, 6px); border:1px solid transparent; font:600 0.95rem/1 var(--font-text, 'Red Hat Text', sans-serif); cursor:pointer; transition:background-color .15s ease, transform .15s cubic-bezier(0.16,1,0.3,1); } .ds-btn-primary { background:var(--brand, #b12c63); color:var(--brand-ink, #fff); } .ds-btn-primary:hover { background:var(--brand-hover, #be377d); } .ds-btn-primary:active { transform:translateY(1px); } .ds-btn-primary:focus-visible { outline:2px solid var(--focus, #fe61f8); outline-offset:2px; } .ds-btn-primary:disabled { background:var(--line, #4e1e52); color:var(--text-3, #c1a0c7); cursor:not-allowed; }"
+    },
+    {
+      "name": "Quiet Button",
+      "kind": "button",
+      "refersTo": "button-quiet",
+      "description": "Secondary actions: Sign in, Try again, Clear filters.",
+      "html": "<button class=\"ds-btn-quiet\">Try again</button>",
+      "css": ".ds-btn-quiet { display:inline-flex; align-items:center; min-height:36px; padding:0 14px; border-radius:var(--radius-sm, 6px); border:1px solid var(--line-strong, #55225a); background:transparent; color:var(--text, #fff4fb); font:600 0.875rem/1 var(--font-text, 'Red Hat Text', sans-serif); cursor:pointer; transition:background-color .15s ease; } .ds-btn-quiet:hover { background:var(--bg-raised, #310a2e); } .ds-btn-quiet:focus-visible { outline:2px solid var(--focus, #fe61f8); outline-offset:2px; }"
+    },
+    {
+      "name": "Danger Button",
+      "kind": "button",
+      "refersTo": "button-danger",
+      "description": "Destructive actions (Cancel enrollment): outlined until hovered or focused, kept 28px from siblings.",
+      "html": "<button class=\"ds-btn-danger\">Cancel enrollment</button>",
+      "css": ".ds-btn-danger { display:inline-flex; align-items:center; min-height:36px; padding:0 14px; border-radius:var(--radius-sm, 6px); border:1px solid color-mix(in oklab, var(--danger, #ca3f56) 60%, transparent); background:transparent; color:var(--danger-text, #e99a9f); font:600 0.875rem/1 var(--font-text, 'Red Hat Text', sans-serif); cursor:pointer; transition:background-color .15s ease, color .15s ease; } .ds-btn-danger:hover, .ds-btn-danger:focus-visible { background:var(--danger, #ca3f56); border-color:var(--danger, #ca3f56); color:#fff; } .ds-btn-danger:focus-visible { outline:2px solid var(--focus, #fe61f8); outline-offset:2px; }"
+    },
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Sunken 44px field with a leading search icon, magenta caret and focus halo.",
+      "html": "<label class=\"ds-search\"><svg viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M10.5 4a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM20 20l-4.8-4.8\"/></svg><input type=\"search\" placeholder=\"Title, code or instructor\"></label>",
+      "css": ".ds-search { position:relative; display:flex; align-items:center; width:300px; } .ds-search svg { position:absolute; left:13px; color:var(--text-3, #c1a0c7); pointer-events:none; } .ds-search input { width:100%; min-height:44px; padding:0 14px 0 38px; border:1px solid var(--line-strong, #55225a); border-radius:var(--radius-sm, 6px); background:var(--bg-sunken, #22041d); color:var(--text, #fff4fb); font:400 1rem/1.55 var(--font-text, 'Red Hat Text', sans-serif); caret-color:var(--active, #fe61f8); transition:border-color .15s ease, box-shadow .15s ease; } .ds-search input::placeholder { color:var(--text-3, #c1a0c7); } .ds-search input:hover { border-color:var(--text-3, #c1a0c7); } .ds-search input:focus-visible { outline:none; border-color:var(--focus, #fe61f8); box-shadow:0 0 0 3px color-mix(in oklab, var(--focus, #fe61f8) 30%, transparent); }"
+    },
+    {
+      "name": "Segmented Filter",
+      "kind": "chip",
+      "refersTo": "segmented-option-pressed",
+      "description": "Status filter with Mono counts; the pressed option is raspberry.",
+      "html": "<div class=\"ds-seg\"><button aria-pressed=\"true\">All <span>3</span></button><button aria-pressed=\"false\">Active <span>3</span></button><button aria-pressed=\"false\">Cancelled <span>0</span></button></div>",
+      "css": ".ds-seg { display:inline-flex; padding:3px; border-radius:var(--radius-sm, 6px); border:1px solid var(--line, #4e1e52); background:var(--bg-sunken, #22041d); } .ds-seg button { display:inline-flex; align-items:center; gap:8px; min-height:34px; padding:0 14px; border:0; border-radius:4px; background:transparent; color:var(--text-2, #ffd3ee); font:500 0.9rem/1 var(--font-text, 'Red Hat Text', sans-serif); cursor:pointer; } .ds-seg button:hover { color:var(--text, #fff4fb); } .ds-seg button:focus-visible { outline:2px solid var(--focus, #fe61f8); outline-offset:2px; } .ds-seg button[aria-pressed='true'] { background:var(--brand, #b12c63); color:var(--brand-ink, #fff); } .ds-seg span { font:500 0.78rem/1 var(--font-mono, 'Red Hat Mono', monospace); opacity:.8; }"
+    },
+    {
+      "name": "Top Bar Navigation",
+      "kind": "nav",
+      "refersTo": "nav",
+      "description": "Sticky translucent bar; the current page carries a 2px raspberry underline.",
+      "html": "<nav class=\"ds-nav\"><a href=\"#\" class=\"ds-nav-link ds-nav-active\">Workshops</a><a href=\"#\" class=\"ds-nav-link\">My enrollments</a></nav>",
+      "css": ".ds-nav { display:flex; gap:6px; padding:14px 0; border-bottom:1px solid var(--line, #4e1e52); background:color-mix(in oklab, var(--bg, #2a0625) 92%, transparent); backdrop-filter:blur(10px); } .ds-nav-link { position:relative; padding:8px 12px; color:var(--text-2, #ffd3ee); text-decoration:none; font:500 1rem/1.2 var(--font-text, 'Red Hat Text', sans-serif); border-radius:var(--radius-sm, 6px); } .ds-nav-link:hover { color:var(--text, #fff4fb); background:var(--bg-raised, #310a2e); } .ds-nav-link:focus-visible { outline:2px solid var(--focus, #fe61f8); outline-offset:2px; } .ds-nav-active { color:var(--text, #fff4fb); } .ds-nav-active::after { content:''; position:absolute; left:12px; right:12px; bottom:-15px; height:2px; background:var(--brand, #b12c63); }"
+    },
+    {
+      "name": "Day Rail",
+      "kind": "custom",
+      "refersTo": "day-rail-day",
+      "description": "Signature wayfinding: season days in Mono with counts on a deep purple spine; a magenta marker glides to the day in view.",
+      "html": "<ol class=\"ds-rail\" style=\"--day:1\"><li><button>SAT DEC 5 <span>2</span></button></li><li><button class=\"on\">SAT DEC 12 <span>2</span></button></li><li><button>SAT DEC 19 <span>2</span></button></li></ol>",
+      "css": ".ds-rail { --row:46px; position:relative; width:196px; list-style:none; margin:0; padding:0; border-left:1px solid var(--line-strong, #55225a); } .ds-rail::before { content:''; position:absolute; left:-1px; top:0; width:3px; height:var(--row); background:var(--active, #fe61f8); border-radius:0 2px 2px 0; transform:translateY(calc(var(--day, 0) * var(--row))); transition:transform .35s cubic-bezier(0.16,1,0.3,1); } .ds-rail button { display:flex; align-items:center; justify-content:space-between; width:100%; height:var(--row); padding:0 4px 0 18px; border:0; background:none; color:var(--text-3, #c1a0c7); font:500 0.82rem/1 var(--font-mono, 'Red Hat Mono', monospace); letter-spacing:.04em; text-transform:uppercase; cursor:pointer; transition:color .15s ease; } .ds-rail button:hover, .ds-rail button.on { color:var(--text, #fff4fb); } .ds-rail button:focus-visible { outline:2px solid var(--focus, #fe61f8); outline-offset:2px; } .ds-rail span { min-width:22px; padding:3px 6px; border-radius:999px; background:var(--bg-raised, #310a2e); color:var(--text-2, #ffd3ee); font-size:.72rem; text-align:center; } .ds-rail .on span { background:color-mix(in oklab, var(--active, #fe61f8) 22%, transparent); color:var(--text, #fff4fb); }"
+    },
+    {
+      "name": "Agenda Row with Seat Meter",
+      "kind": "card",
+      "refersTo": "listing-row",
+      "description": "The listing container: Mono time column, title and description, seat meter, action at the end; hairline below, raised on hover.",
+      "html": "<div class=\"ds-row\"><div class=\"ds-time\">08:00<small>12:00</small><code>FOT-001</code></div><div><h3>Fotografia con celular</h3><p>Composicion, luz y edicion basica</p></div><div class=\"ds-meter\"><div class=\"ds-track\"><div class=\"ds-fill\" style=\"width:80%\"></div></div><span><strong>12</strong> of 15 seats left</span></div><button class=\"ds-enroll\">Enroll</button></div>",
+      "css": ".ds-row { display:grid; grid-template-columns:76px minmax(0,1fr) 190px 112px; align-items:center; gap:24px; padding:20px 12px; border-bottom:1px solid var(--line, #4e1e52); color:var(--text, #fff4fb); font-family:var(--font-text, 'Red Hat Text', sans-serif); transition:background-color .15s ease; } .ds-row:hover { background:var(--bg-raised, #310a2e); } .ds-time { display:flex; flex-direction:column; gap:5px; align-self:start; font:600 1rem/1 var(--font-mono, 'Red Hat Mono', monospace); color:var(--time, #5be0f0); } .ds-time small { font-weight:400; font-size:.8rem; color:var(--text-3, #c1a0c7); } .ds-time code { margin-top:6px; font:500 .7rem/1 var(--font-mono, 'Red Hat Mono', monospace); letter-spacing:.04em; color:var(--text-3, #c1a0c7); } .ds-row h3 { margin:0; font:700 1.1rem/1.15 var(--font-display, 'Red Hat Display', sans-serif); } .ds-row p { margin:6px 0 0; color:var(--text-2, #ffd3ee); font-size:.92rem; } .ds-meter { display:flex; flex-direction:column; gap:8px; font-size:.82rem; color:var(--text-2, #ffd3ee); } .ds-meter strong { color:var(--text, #fff4fb); font:600 .9rem/1 var(--font-mono, 'Red Hat Mono', monospace); } .ds-track { height:6px; border-radius:999px; background:var(--seat-track, #481949); overflow:hidden; } .ds-fill { height:100%; border-radius:inherit; background:var(--seat, #5be0f0); } .ds-enroll { min-height:42px; border:0; border-radius:var(--radius-sm, 6px); background:var(--brand, #b12c63); color:var(--brand-ink, #fff); font:600 .95rem/1 var(--font-text, 'Red Hat Text', sans-serif); cursor:pointer; } .ds-enroll:hover { background:var(--brand-hover, #be377d); } .ds-enroll:focus-visible { outline:2px solid var(--focus, #fe61f8); outline-offset:2px; }"
+    },
+    {
+      "name": "Day Heading",
+      "kind": "custom",
+      "refersTo": "day-heading",
+      "description": "Display numeral, weekday and Mono month in the heading accent on a 3px raspberry rule.",
+      "html": "<h2 class=\"ds-day\"><span class=\"n\">5</span><span class=\"l\"><span>Saturday</span><span>December</span></span><span class=\"c\">2 workshops</span></h2>",
+      "css": ".ds-day { display:flex; align-items:center; gap:14px; margin:0; padding:0 12px 12px; border-bottom:3px solid var(--brand, #b12c63); color:var(--heading-accent, #fe8ed5); } .ds-day .n { font:800 3rem/.9 var(--font-display, 'Red Hat Display', sans-serif); letter-spacing:-.04em; min-width:1.4em; } .ds-day .l { display:flex; flex-direction:column; gap:2px; font:700 1.05rem/1.15 var(--font-display, 'Red Hat Display', sans-serif); } .ds-day .l span:last-child { color:var(--text-2, #ffd3ee); font:500 .78rem/1.2 var(--font-mono, 'Red Hat Mono', monospace); letter-spacing:.08em; text-transform:uppercase; } .ds-day .c { margin-left:auto; align-self:flex-end; color:var(--text-3, #c1a0c7); font:500 .78rem/1 var(--font-mono, 'Red Hat Mono', monospace); letter-spacing:.06em; text-transform:uppercase; }"
+    },
+    {
+      "name": "Toast",
+      "kind": "custom",
+      "refersTo": "toast",
+      "description": "Floating confirmation, the only element with a shadow; rises 8px into place.",
+      "html": "<div class=\"ds-toast\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12.5l4.5 4.5L19 7.5\"/></svg><span>You are enrolled.</span><button aria-label=\"Close notice\"><svg viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" aria-hidden=\"true\"><path d=\"M6 6l12 12M18 6 6 18\"/></svg></button></div>",
+      "css": ".ds-toast { display:flex; align-items:center; gap:12px; width:min(400px, 100%); padding:12px 12px 12px 16px; border-radius:var(--radius-sm, 6px); border:1px solid var(--line-strong, #55225a); background:var(--bg-raised, #310a2e); color:var(--text, #fff4fb); box-shadow:var(--shadow, 0 12px 32px -12px rgba(0,0,0,.7)); font:400 1rem/1.55 var(--font-text, 'Red Hat Text', sans-serif); } .ds-toast > svg { color:var(--seat, #5be0f0); flex:none; } .ds-toast span { flex:1; } .ds-toast button { display:inline-grid; place-items:center; width:30px; height:30px; border:0; border-radius:4px; background:transparent; color:var(--text-3, #c1a0c7); cursor:pointer; } .ds-toast button:hover { color:var(--text, #fff4fb); background:var(--bg-sunken, #22041d); } .ds-toast button:focus-visible { outline:2px solid var(--focus, #fe61f8); outline-offset:2px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Night Agenda",
+    "overview": "**Creative North Star: \"The Night Agenda\"**\n\nInfectionSkillHub reads like a city's cultural agenda printed for the evening: the season's workshops filed under their day, each day opened by a large day numeral over a raspberry rule, times standing in a fixed mono column at the left, seats shown as a short meter, and the action at the row's end. It is a listing, not a marketplace: there are no cards, no hero, no photography. Density is that of a printed programme, generous between days (48px) and tight within a row.\n\nThe world is nocturnal by default. Dark mode is the eggplant ground with deep purple rules; light mode is the same agenda printed on pink-tinted stock with eggplant ink, not a separate design. Both themes are derived from one pinned eight-color palette; every other color in the build is a `color-mix(in oklab, ...)` of two palette colors (or a palette color and white or black), or an `oklch(from ...)` adjustment of one. Personality lives in the details (the glyph-free calendar mark, the gliding magenta rail marker, the mono figures) and never at the cost of legibility.\n\nTheme resolution: the saved choice in `localStorage` (`infectionskillhub.theme`), else `prefers-color-scheme`, applied on `<html data-theme>` before first paint. `:root` alone resolves to dark. Color tokens prefixed `night-` belong to dark, `stock-` to light; the palette tokens are shared.",
+    "keyCharacteristics": [
+      "Agenda rows under day headings; hairline dividers instead of containers.",
+      "One eggplant-and-raspberry world in two printings (night and pink stock).",
+      "Scarce accents with fixed jobs: cyan for times, seats and confirmation, magenta for the active day and focus, coral for full, cancelled and error.",
+      "Red Hat superfamily: Display for headings, Text for reading, Mono for every figure.",
+      "Flat print surfaces; the only shadow belongs to the floating toast.",
+      "One motion moment (the rail marker), one settle (seat meters), all removed under reduced motion."
+    ],
+    "rules": [
+      {
+        "name": "The Eight Inks Rule",
+        "body": "Every color is one of the eight pinned palette colors or a `color-mix(in oklab, ...)` / `oklch(from ...)` derivation of them, with white and black allowed only as mixing endpoints and as ink on raspberry or coral. No new hue enters the system.",
+        "section": "colors"
+      },
+      {
+        "name": "The Fixed Jobs Rule",
+        "body": "Cyan means time, open seats and confirmation; magenta means \"you are here\" (active day, focus); coral means stopped (full, cancelled, error, destructive). An accent never decorates.",
+        "section": "colors"
+      },
+      {
+        "name": "The One World, Two Printings Rule",
+        "body": "Light mode is the night agenda reprinted on pink stock with eggplant ink. Every role token exists in both themes; never style a component for one theme only.",
+        "section": "colors"
+      },
+      {
+        "name": "The Mono For Figures Rule",
+        "body": "Times, workshop codes, seat numbers, counts and rail dates are set in Red Hat Mono. Words are never set in Mono except the uppercase date and count labels that belong to a figure.",
+        "section": "typography"
+      },
+      {
+        "name": "The Heavy Numeral Rule",
+        "body": "Display weight 800 is reserved for day numerals, the page h1, the wordmark and the auth masthead. Everything else stays at 700 or lighter.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Print Rule",
+        "body": "Nothing on the page surface casts a shadow. A shadow means the element floats above the agenda (a toast); a blur means it is pinned (a sticky bar).",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** file every list of workshops or enrollments under day headings as rows: Mono time column at left, content, then state and action at the row's end.",
+      "**Do** derive any new color as `color-mix(in oklab, ...)` of two palette colors (or a palette color with white or black) and define it for both `[data-theme='dark']` and `[data-theme='light']`.",
+      "**Do** set times, codes, counts and seat figures in Red Hat Mono, and keep body text on tabular numerals.",
+      "**Do** pair every status color with a word and an icon (Full, Enrolled, Active, Cancelled); color repeats state, it never carries it alone.",
+      "**Do** keep destructive actions outlined in coral until hovered or focused, and at least 28px from the nearest sibling action.",
+      "**Do** use the 2px magenta focus outline at 2px offset on every interactive element; inputs use the focus border plus 3px halo instead.",
+      "**Do** confine motion to the rail marker glide, the seat settle, the switch knob and the toast rise, all on `cubic-bezier(0.16, 1, 0.3, 1)`, and keep the global `prefers-reduced-motion` override."
+    ],
+    "donts": [
+      "**Don't** introduce a grid of identical workshop cards; the agenda row is the only listing container.",
+      "**Don't** add a ninth hue or a raw hex outside the palette; white and black appear only as mixing endpoints and as ink on raspberry or coral.",
+      "**Don't** use cyan, magenta or coral decoratively; each has one job (time, seats and confirmation; active day and focus; stopped).",
+      "**Don't** put shadows on page surfaces; only floating toasts cast one.",
+      "**Don't** fabricate photography, testimonials or logos; the calendar mark is the only image.",
+      "**Don't** style a component for one theme only; light is the same agenda on pink stock."
+    ]
+  }
+}
