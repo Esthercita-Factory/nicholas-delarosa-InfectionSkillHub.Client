@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>InfectionSkillHub</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="InfectionSkillHub workshops: browse the catalog, enroll and download your enrollment certificate.">
+  <meta name="theme-color" content="#2a0625">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <script>
+    // Theme before the first paint: the saved choice, or the system preference.
+    (function () {
+      var theme = null;
+      try { theme = JSON.parse(localStorage.getItem('infectionskillhub.theme')); } catch (e) {}
+      if (theme !== 'light' && theme !== 'dark') {
+        theme = window.matchMedia && matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+      }
+      document.documentElement.setAttribute('data-theme', theme);
+    })();
+  </script>
+</head>
+<body>
+  <app-root></app-root>
+</body>
+</html>

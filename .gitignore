@@ -1,0 +1,36 @@
+# Compiled output
+/dist
+/tmp
+/out-tsc
+
+# Node
+/node_modules
+npm-debug.log
+yarn-error.log
+
+# IDEs and editors
+.idea/
+.vscode/
+.project
+.classpath
+*.launch
+.settings/
+
+# Angular
+.angular/
+/coverage
+testem.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Local commit notes
+commitazo
+
+# Impeccable working files (decision sketches, review captures, local config)
+.impeccable/mocks/
+.impeccable/review/
+.impeccable/build/
+.impeccable/config.local.json
+.impeccable/questions/
