@@ -4,6 +4,8 @@ Participant application of **InfectionSkillHub**, built with Angular. It consume
 [InfectionSkillHub API](https://github.com/Esthercita-Factory/nicholas-delarosa-InfectionSkillHub) with the JWT
 returned on sign in (presentation option B).
 
+Live at https://infectionskillhub.clandev.com (API reference: https://service.infectionskillhub.clandev.com/scalar).
+
 It covers the whole participant flow:
 
 - Sign up and sign in.
