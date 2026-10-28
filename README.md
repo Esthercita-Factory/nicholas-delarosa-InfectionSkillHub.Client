@@ -85,6 +85,13 @@ docker build -t infectionskillhub-client .
 docker run -p 8667:8080 --network infectionskillhub_default -e API_UPSTREAM=http://api:8080 infectionskillhub-client
 ```
 
+## Continuous delivery
+
+`.github/workflows/docker.yml` runs `npm test` and the production build on every push to `main`. If they pass it
+publishes `ghcr.io/esthercita-factory/nicholas-delarosa-infectionskillhub.client` and, when the `SSH_HOST`,
+`SSH_USER` and `SSH_PRIVATE_KEY` secrets exist, restarts the client container on the server. The one-time setup
+is described in the API README.
+
 ## Test accounts
 
 Participants loaded from `InfectionSkillHub_Data.xlsx` use the password `Skillhub2026*`, for example
