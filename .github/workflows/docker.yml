@@ -97,5 +97,4 @@ jobs:
             cd ~/InfectionSkillHub
             sudo -n docker compose pull client
             sudo -n docker compose up -d --no-deps --no-build client
-            sudo -n docker image prune -f
           '
